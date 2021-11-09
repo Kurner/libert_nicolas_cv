@@ -1,0 +1,164 @@
+header {
+    text-align: center;
+    background: #755c3b;
+    padding-bottom: 30px;
+    color: white;
+    
+}
+
+body
+{
+    font-family: Arial;
+    background-color: rgba(177, 227, 195);
+    margin: 0;    
+ 
+
+    
+    
+}
+
+h1 {
+    font-family: 'geliaextrabold';
+    text-align: center;
+    font-size: 5em;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top:0;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+ul {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 30px;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li a {
+    text-transform: uppercase;
+}
+
+
+
+p {
+    font-size: 1.3em;
+    width: 500px;
+    margin: auto;
+
+}
+
+
+
+section {
+    text-align: center;
+   
+}
+
+nav {
+  
+    text-align:center;
+    background: rgb(160, 149, 149);
+    box-shadow: 0px 4px 1px -1px rgba(0,0,0,0.5);
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+footer {
+    text-align: center;
+}
+
+/* Classe */
+.separator {
+    width: 225px;
+    height: 2px;
+    margin: 15px auto;
+    display: block;
+    background: white;
+}
+
+.projet {
+    width: 400px;    
+    margin:auto;
+    background: rgb(236, 232, 232);
+    padding-bottom: 10px;
+    /* Création d'une bordure de 0 et on cache le surplus de l'image pour arrondir les bords */
+    border: 0px black solid;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgb(0, 0, 0, 0.23);
+}
+
+.projet:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.3s;
+}
+
+
+.picture
+{
+    margin-bottom: 10px;
+}
+
+.logo img
+{
+
+ margin-right: 15px;
+ max-width: 50px;
+ height: 50px;
+}
+
+
+/* ID */
+
+#contact {
+    margin-bottom: 15px;
+}
+
+/* POLICE */
+@font-face {
+    font-family: 'geliaextralight';
+    src: url('src/geliaextralight.otf') format('opentype');
+  
+}
+@font-face {
+    font-family: 'geliaextrabold';
+    src: url('src/geliatextrabold.otf') format('opentype');
+}
+
+/* MEDIA */
+
+@media all and (max-width: 500px)
+{   
+    h1 {font-size: 80px;}
+    h2 {font-size:45px; margin: 7px;}
+    p { width: 90%}
+    nav {font-size: 100%;}
+    li {padding:10px; margin: auto;}
+    .projet, .picture {width: 90%}
+}

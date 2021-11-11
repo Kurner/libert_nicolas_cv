@@ -93,7 +93,13 @@ footer {
     text-align: center;
 }
 
+a[title="Hosted on free web hosting 000webhost.com. Host your own website for FREE."] {
+    display: none
+}
+
+
 /* Classe */
+
 .separator {
     width: 225px;
     height: 2px;
@@ -153,12 +159,13 @@ footer {
 
 /* MEDIA */
 
-@media all and (max-width: 500px)
+@media screen and (max-width: 500px)
 {   
     h1 {font-size: 80px;}
     h2 {font-size:45px; margin: 7px;}
     p { width: 90%}
     nav {font-size: 100%;}
     li {padding:10px; margin: auto;}
-    .projet, .picture {width: 90%}
+    .projet, .picture {width: 100%}
+    
 }
